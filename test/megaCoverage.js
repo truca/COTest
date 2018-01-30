@@ -6,9 +6,9 @@ import MegaCoverage from '../src/products/megaCoverage'
 describe("MegaCoverage", function() {
   describe("constructor", function() {
     it("should have 'Mega Coverage' as its name", function() {
-      var fullCoverage = new MegaCoverage(10, 20)
+      var megaCoverage = new MegaCoverage(10, 20)
 
-      expect(fullCoverage.name).to.equal("Mega Coverage")
+      expect(megaCoverage.name).to.equal("Mega Coverage")
     });
   });
   
