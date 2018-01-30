@@ -1,14 +1,14 @@
-#ComparaOnline Test
+# ComparaOnline Test
 
 test for recruitment in Compara Online
 
-##Setup
+## Setup
 
 `````
 npm install
 `````
 
-##Available Commands
+## Available Commands
 
 After setting up the repo, you can use these commands:
 
