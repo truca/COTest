@@ -1,8 +1,8 @@
 import Product from './product'
 
 class FullCoverage extends Product {
-  constructor(sellIn, price){
-    super('Full Coverage', sellIn, price)
+  constructor(sellIn, price, prefix = ""){
+    super(`${prefix}Full Coverage`, sellIn, price)
   }
   updatePrice(){
     if(this.price < 50){
